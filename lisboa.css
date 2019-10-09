@@ -1,6 +1,11 @@
 
 
 /* ----------------LISBOA--------------------- */
+body {
+
+}
+
+
 header {
   font-size: 100px;
   color: #1a0033;
@@ -12,7 +17,7 @@ header {
 }
 
 * {
-  border-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .lisboa {
@@ -21,6 +26,12 @@ header {
 
 .slides1, .slides2 {
   display: none;
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  vertical-align: middle;
 }
 
   /* Slideshow Container */
@@ -59,12 +70,6 @@ header {
 .prev:hover, .next:hover {
   background-color: #b38bcc;
   color: black;
-}
-
-img {
-  width: 600px;
-  height: 600px;
-  vertical-align: middle;
 }
 
 .rotate1 {
